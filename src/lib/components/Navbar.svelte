@@ -19,13 +19,21 @@
     {
         height: 70px;
         text-align: center;
-        line-height: 70px;        
+        display: flex;
+        justify-content: center;
+        line-height: 70px;   
     }
 
     .header > h1 > a
     {
         color: #CBF3F0;
-        text-shadow: 2px 2px 2px black
+        text-shadow: 2px 2px 2px black;
+        transition: 0.4s;
+    }
+
+    .header > h1 > a:hover
+    {
+        font-size: 1.1em;
     }
 
     .container, .header
@@ -47,15 +55,19 @@
         
     }
 
+    h1
+    {
+        /* width: 23%; */
+    }
+
     a
     {
         color: white;
-        /* display: inline-block; */
+        display: block;        
     }
 
     li
     {
-        /* height: 70px; */
         line-height: 70px;
         text-align: center;
     }
@@ -94,7 +106,6 @@
         height: 0px;
         transition: 0.4s;
         visibility: hidden;
-        /* line-height: 0; */
     }
     
     .menu > li:hover > .almenu > li
@@ -105,7 +116,6 @@
     
     .almenu > li:hover
     {
-        /* margin-left: 120%; */
         background-position: -80% 0%;
     }
 
