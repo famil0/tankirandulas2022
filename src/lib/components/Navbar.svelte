@@ -17,7 +17,6 @@
 
     .header
     {
-        background-color: #2EC4B6;
         height: 70px;
         text-align: center;
         line-height: 70px;        
@@ -29,9 +28,13 @@
         text-shadow: 2px 2px 2px black
     }
 
+    .container, .header
+    {
+        background: linear-gradient(90deg, #1e7e74 0%, #2EC4B6 20%, #2EC4B6 80%, #1e7e74 100%);
+    }
+
     .container
     {
-        background-color: #2EC4B6;
         display: grid;
         justify-content: center;
         align-content: center;
