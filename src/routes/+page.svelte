@@ -1,0 +1,2 @@
+<style globals>
+</style>

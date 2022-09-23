@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+}
+
+h1
+{
+    color: black;
+}
+body
+{
+    background-color: #353535;
+    font-family: "Bahnschrift";
+}
+
+a
+{
+    text-decoration: none;
+}
