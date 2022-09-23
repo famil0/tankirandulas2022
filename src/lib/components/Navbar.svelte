@@ -55,11 +55,6 @@
         
     }
 
-    h1
-    {
-        /* width: 23%; */
-    }
-
     a
     {
         color: white;
