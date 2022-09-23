@@ -2,7 +2,7 @@
 <style>
     div
     {
-        background-color: #D9D9D9;
+        background-color: #2EC4B6;
         height: 70px;
         text-align: center;
         line-height: 70px;

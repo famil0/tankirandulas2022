@@ -15,7 +15,7 @@
 
     .container
     {
-        background-color: #D9D9D9;
+        background-color: #2EC4B6;
         display: grid;
         justify-content: center;
         align-content: center;
@@ -45,16 +45,15 @@
         display: inline-block;
     }
 
-    .menu > li > a
+    .menu > li
     {
         width: 100px;
-        background: linear-gradient(45deg, #284B63 0%, #284B63 50%, #3C6E71 50%,  #3C6E71 100%);
+        background: linear-gradient(45deg, #FF9F1C 0%, #FF9F1C 50%, #FFBF69 50%,  #FFBF69 100%);
         background-size: 230% 100%;
-        display: block;
         transition: 0.4s;
     }
 
-    .menu > li > a:hover
+    .menu > li:hover
     {
         background-position: 100% 0%;
     }
@@ -65,11 +64,11 @@
         position: absolute;
     }
     
-    .almenu > li > a
+    .almenu > li
     {
         display: block;
         width: 100px;
-        background: linear-gradient(90deg, #284B63 0%, #284B63 10%, #3C6E71 10%, #3C6E71 100%);
+        background: linear-gradient(90deg, #FF9F1C 0%, #FF9F1C 10%, #FFBF69 10%, #FFBF69 100%);
         background-size: 200% 100%;
         transform: translateX(-40%);
         height: 0px;
@@ -78,14 +77,13 @@
         /* line-height: 0; */
     }
     
-    .menu > li:hover > .almenu > li > a
+    .menu > li:hover > .almenu > li
     {
-        /* line-height: 70px; */
         height: 70px;
         visibility: visible;
     }
     
-    .almenu > li > a:hover
+    .almenu > li:hover
     {
         /* margin-left: 120%; */
         background-position: -80% 0%;
