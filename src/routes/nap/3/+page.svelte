@@ -1,1 +1,6 @@
-<h1>kecske</h1>
+<script>
+    import Content from "../../../lib/components/Content.svelte";
+</script>
+<Content>
+    
+</Content>

@@ -1,3 +1,4 @@
+<div class="header"><h1><a href="../../">Tanulmányi kirándulás 2022</a></h1></div>
 <div class="container">
     <ul class="menu">
         <li><a>Napok</a>
@@ -13,12 +14,28 @@
 </div>
 <style>
 
+
+    .header
+    {
+        background-color: #2EC4B6;
+        height: 70px;
+        text-align: center;
+        line-height: 70px;        
+    }
+
+    .header > h1 > a
+    {
+        color: #CBF3F0;
+        text-shadow: 2px 2px 2px black
+    }
+
     .container
     {
         background-color: #2EC4B6;
         display: grid;
         justify-content: center;
         align-content: center;
+        padding-bottom: 1.5%;
     }
     
     ul
@@ -39,7 +56,7 @@
         line-height: 70px;
         text-align: center;
     }
-
+    
     .menu > li
     {
         display: inline-block;
