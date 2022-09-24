@@ -18,12 +18,14 @@
     .header
     {
         height: 70px;
+        width: 100%;
         text-align: center;
         display: flex;
         justify-content: center;
         line-height: 70px;   
         z-index: 1;
-        position: relative;
+        position: sticky;
+        top: 0;
     }
 
     .header > h1 > a
@@ -40,7 +42,7 @@
 
     .container, .header
     {
-        background: linear-gradient(90deg, #1e7e74 0%, #2EC4B6 20%, #2EC4B6 80%, #1e7e74 100%);
+        background: linear-gradient(90deg, #11ebd5 0%, #2EC4B6 20%, #2EC4B6 20%, #2ec486 80%, #2ec486 80%, #2ec42e 100%);
     }
 
     .container

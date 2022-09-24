@@ -7,7 +7,8 @@
     {
         z-index: -1;
         width: 60%;
-        background-color: #2EC4B6;
+        /* background-color: #2EC4B6; */
+        background: linear-gradient(90deg, #2EC4B6, #2ec486);
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
