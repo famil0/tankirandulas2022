@@ -1,7 +1,6 @@
 <script>
     import Content from "../../../lib/components/Content.svelte";
 </script>
-<link rel="stylesheet" href="../global.css">
 <Content>
     <h1>This is the second day!</h1>
     <h4>2022.09.08.</h4>
