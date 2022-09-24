@@ -49,14 +49,12 @@
     {
         display: grid;
         justify-content: center;
-        align-content: center;
         padding-bottom: 1.5%;
     }
     
     ul
     {
         list-style: none;
-        
     }
 
     a
@@ -105,7 +103,6 @@
         width: 100px;
         background: linear-gradient(90deg, #FF9F1C 0%, #FF9F1C 10%, #FFBF69 10%, #FFBF69 100%);
         background-size: 200% 100%;
-        transform: translateX(-40%);
         transition: 0.4s;
     }
 

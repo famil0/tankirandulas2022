@@ -1,6 +1,7 @@
 *
 {
     margin: 0;
+    padding: 0;
 }
 
 body, html
@@ -8,10 +9,6 @@ body, html
     height: 100vh;
 }
 
-h1
-{
-    color: black;
-}
 body
 {
     background-color: #CBF3F0;
