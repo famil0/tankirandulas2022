@@ -93,6 +93,9 @@
     {
         position: absolute;
         z-index: -1;
+        visibility: hidden;
+        transform: translateY(-100%);
+        transition: 0.4s;
     }
     
     .almenu > li
@@ -100,17 +103,14 @@
         width: 100px;
         background: linear-gradient(90deg, #FF9F1C 0%, #FF9F1C 10%, #FFBF69 10%, #FFBF69 100%);
         background-size: 200% 100%;
+        transform: translateX(-40%);
         transition: 0.4s;
-        visibility: hidden;
-        /* height: 0; */
-        transform: translate(-40%, -300%);        
     }
 
-    .menu > li:hover > .almenu > li
+    .menu > li:hover > .almenu
     {
-        height: 70px;
         visibility: visible;
-        transform: translate(-40%, 0);
+        transform: translateY(-0%);
     }
     
     .almenu > li:hover
