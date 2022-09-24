@@ -22,6 +22,8 @@
         display: flex;
         justify-content: center;
         line-height: 70px;   
+        z-index: 1;
+        position: relative;
     }
 
     .header > h1 > a
@@ -70,10 +72,6 @@
     .menu > li
     {
         display: inline-block;
-    }
-
-    .menu > li
-    {
         width: 100px;
         background: linear-gradient(45deg, #FF9F1C 0%, #FF9F1C 50%, #FFBF69 50%,  #FFBF69 100%);
         background-size: 230% 100%;
@@ -85,28 +83,34 @@
         background-position: 100% 0%;
     }
 
+    .menu
+    {
+        z-index: 0;
+        overflow: hidden;
+    }
     
     .almenu
     {
         position: absolute;
+        z-index: -1;
     }
     
     .almenu > li
     {
-        display: block;
         width: 100px;
         background: linear-gradient(90deg, #FF9F1C 0%, #FF9F1C 10%, #FFBF69 10%, #FFBF69 100%);
         background-size: 200% 100%;
-        transform: translateX(-40%);
-        height: 0px;
         transition: 0.4s;
         visibility: hidden;
+        /* height: 0; */
+        transform: translate(-40%, -300%);        
     }
-    
+
     .menu > li:hover > .almenu > li
     {
         height: 70px;
         visibility: visible;
+        transform: translate(-40%, 0);
     }
     
     .almenu > li:hover
