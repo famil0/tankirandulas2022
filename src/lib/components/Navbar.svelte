@@ -107,6 +107,12 @@
         transition: 0.4s;
     }
 
+    .almenu > li > a
+    {
+        transition: 0.4s;
+        margin-left: 20%;
+    }
+
     .menu > li:hover > .almenu
     {
         visibility: visible;
@@ -116,6 +122,11 @@
     .almenu > li:hover
     {
         background-position: -80% 0%;
+    }
+
+    .almenu > li:hover > a
+    {
+        margin-left: -20%;
     }
 
 </style>
